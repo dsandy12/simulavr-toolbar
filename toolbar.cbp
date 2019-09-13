@@ -30,6 +30,10 @@
 				</ExtraCommands>
 			</Target>
 		</Build>
+		<Compiler>
+			<Add directory="/usr/include/codeblocks" />
+			<Add directory="/usr/include/wx-3.0" />
+		</Compiler>
 		<Unit filename="images/ledoff.png" />
 		<Unit filename="images/ledon.png" />
 		<Unit filename="images/ledtri.png" />
